@@ -3,26 +3,18 @@
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-
   /* default box model: */
   /* Margin, border, padding, content box */
   /* box-sizing: content-box; */
-
   /* alternative box model: */
   /* margin, content */
   box-sizing: content-box;
-
   --yellow: #f6c10d;
-
-  /* temp */
-  /* 8 + 6 photos = 14 */
   background-color: none;
 }
-
 body h1 {
   color: var(--yellow);
 }
-
 body h2,
 body h3,
 body p {
@@ -59,7 +51,7 @@ body p {
   color: white;
 }
 
-/* page 1 stuff */
+/* page 1 code i.e. hero section */
 .p1 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/pexels-cornellana-873533.jpg");
@@ -87,14 +79,13 @@ body p {
   font-size: 200px;
 }
 
-/* page 2 stuff */
+/* page 2 code */
 .p2 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/pexels-clickerhappy-792.jpg");
   background-size: cover;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   height: 80vh;
 }
 .p2 .left {
@@ -118,7 +109,7 @@ body p {
   font-size: 20px;
 }
 
-/* page 3 stuff */
+/* page 3 code */
 .p3 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/pexels-pixabay-41004.jpg");
@@ -176,7 +167,7 @@ body p {
   justify-content: center;
 }
 
-/* page 4 stuff */
+/* page 4 code */
 .p4 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../assets/pexels-pixabay-207049.jpg");
@@ -216,7 +207,7 @@ body p {
   font-size: 20px;
 }
 
-/* page 5 stuff */
+/* page 5 code */
 .p5 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/pexels-suomi-photography-621409-2024881.jpg");
@@ -242,7 +233,7 @@ body p {
   font-size: 50px;
 }
 
-/* page 6 stuff */
+/* page 6 code */
 .p6 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../assets/pexels-pixabay-35637.jpg");
@@ -267,7 +258,7 @@ body p {
   margin: 20px 0;
 }
 
-/* page 7 stuff */
+/* page 7 code */
 .p7 {
   background-color: grey;
   background-size: cover;
@@ -313,7 +304,7 @@ body p {
   background-size: cover;
 }
 
-/* page 8 stuff */
+/* page 8 code i.e. footer */
 .p8 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../assets/pexels-ydesrappelet-9733790.jpg");
